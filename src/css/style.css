@@ -1,0 +1,25 @@
+
+.warp {
+  display: inline-block;
+
+
+}
+
+  .dress {
+    display: inline-flex;
+    margin: 10px;
+  }
+  
+  .img {
+    height: 350px;
+    width: 270px;
+    margin-top: 9px;
+    margin-left: 8px;
+  }
+  
+  .footer {
+    margin-top: 13pc;
+    display: flexbox;
+    align-content: center;
+    background-color: #f8f9fa;
+  }
