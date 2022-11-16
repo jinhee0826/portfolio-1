@@ -16,36 +16,57 @@ const DataProvider = ({children}) => {
             productId : 1,
             productName : "웨딩드레스1",
             productDetail : "비즈 장식을 더한 화사한 드레스",
-            productPicture : ["dress1.jpg"],
-            productPrice : "500,000,000원"
+            productPicture : ["dress1.jpg","dress3.jpg"],
+            productPrice : "5,000,000원"
         },
         {
             productId : 2,
             productName : "웨딩드레스2",
             productDetail : "뒷모습에 초점을 맞춰서 행진할 때 이쁜 드레스",
             productPicture : ["dress2.jpg" ],
-            productPrice : "250,000,000원"
+            productPrice : "2,500,000원"
         },
         {
             productId : 3,
             productName : "웨딩드레스3",
             productDetail : "심플하고 세련된 스타일의 드레스 ",
             productPicture : ["dress3.jpg" ],
-            productPrice : "100,000,000원"
+            productPrice : "1,500,000원"
         },
         {
             productId : 4,
             productName : "웨딩드레스4",
             productDetail : "전문가가 섬세히 자수를 뜬 드레스 ",
             productPicture : ["dress4.jpg" ],
-            productPrice : "330,000,000원"
+            productPrice : "3,300,000원"
         },
         {
             productId : 5,
             productName : "웨딩드레스5",
             productDetail : "자연스러움을 추구하고 깨끗한느낌의 드레스 ",
             productPicture : ["dress5.jpg" ],
-            productPrice : "420,000,000원"
+            productPrice : "4,200,000원"
+        },
+        {
+            productId : 6,
+            productName : "웨딩드레스6",
+            productDetail : "비즈장식과 허리라인을 강조한 아름다운 드레스 ",
+            productPicture : ["dress6.jpg" ],
+            productPrice : "5,500,000원"
+        },
+        {
+            productId : 7,
+            productName : "웨딩드레스7",
+            productDetail : "흔하지 않은 면사포와 함께 센스와 우아함을 더한 드레스 ",
+            productPicture : ["dress7.jpg" ],
+            productPrice : "4,800,000원"
+        },
+        {
+            productId : 8,
+            productName : "웨딩드레스8",
+            productDetail : "어깨와 허리라인을 강조하고 기품을 더하여주는 드레스 ",
+            productPicture : ["dress8.jpg" ],
+            productPrice : "4,200,000원"
         },
     ])
     

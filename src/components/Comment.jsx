@@ -2,6 +2,8 @@ import { ListGroup } from "react-bootstrap";
 
 const Comment = (props) => {
     const {comment} = props;
+    // CommentInput에서 가져옴 
+    
     return (  
         <ListGroup.Item>
             <div>

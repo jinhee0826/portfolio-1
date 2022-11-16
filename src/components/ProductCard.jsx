@@ -17,14 +17,16 @@ function ProductCard(props) {
   const navigate = useNavigate();
 
   useEffect(()=>{ 
+    // useContext
     if(!data.state.user) {setLikCheck(false)}}, [data.state.user])
 
   const toggleLike = () => {
+    // useContext
     if (!data.state.user) {
       return ;
     }
   
-
+    // useContext
     const likes = data.state.user.likelist;
     if( likes.find((like)=>(like.productId == product.productId)) ) {
       const newLikeList = likes.filter((like)=>(like.productId != product.productId));
@@ -46,6 +48,7 @@ function ProductCard(props) {
   return (
     <Card style={{ width: '18rem' }}>
       <Card.Img className='img'
+      // props
       onClick={()=>{navigate("/product/"+product.productId)}}
       variant="top" src={require(`../img/${product.productPicture[0]}`)} />
       <Card.Body>

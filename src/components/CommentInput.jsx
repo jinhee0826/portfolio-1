@@ -10,6 +10,7 @@ const CommentInput = () => {
 
   const addComment = () => {
     const comment =  {
+      // DataContext에서 가져옴 
       commentId : state.commentCount, 
       productId : id, 
       name : (state.user ? state.user.name : "" ), 

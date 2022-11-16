@@ -27,10 +27,10 @@ const Proflie = () => {
             </Col>
             <Col>
             <div>
-              <h2>{state.user.name}님의 프로필</h2>
+              <h4>{state.user.name}님의 프로필</h4>
               <hr />
-              <h2>{state.user.name}의 찜♥목록</h2>
-              <ul>
+              <h4>{state.user.name}의 찜♥목록</h4>
+              <ul className="likelist">
                 <br />
                   <p>{state.user.likelist.map((like)=>(<li>{like.productName}</li>))}</p>
               </ul>

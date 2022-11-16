@@ -53,15 +53,13 @@ const ProductDisplay = (props) => {
             <h1>{product.productName}</h1>
             <p>{product.productDetail}</p>
             <p>{product.productPrice}</p>
-            <p>
-              only white
-              <input type="number" 
+            <p>only white</p>
+            수량: <input type="number" 
                 style={{
                   width: "50px",
                   marginLeft: "10px",
                   
                 }}/>
-            </p>
             <div className="d-grid gap-2">
               <Button variant="danger" size="lg">
                 구매

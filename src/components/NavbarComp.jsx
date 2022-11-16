@@ -16,17 +16,19 @@ function NavbarComp() {
   const navigate = useNavigate();
   
   useEffect(()=>{
+    // useContext에서 가져옴 
     setLogin(data.state.user ? true : false)
   }, [data.state.user])
 
   const logOut = () => {
+    // useContext
     setLogin(false);
     data.action.setUser(null);
     navigate('/');
   }
   return (
     <>
-      <Navbar bg="light" variant="light" >
+      <Navbar bg="light" variant="light" className='heder'>
         <Container>
           <Navbar.Brand >
           <FontAwesomeIcon className='mx-2' icon={faHandHoldingHeart} /> 
